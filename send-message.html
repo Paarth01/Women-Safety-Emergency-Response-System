@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="send-message.html">Send Message</a></li>
+            <li><a href="contact-list.html">Contact List</a></li>
+            <li><a href="safety.html">Safety</a></li>
+        </ul>
+    </nav>
+
+    <h1>Send Message to Guardians</h1>
+    <form id="messageForm">
+        <label for="guardians">Select Guardians:</label>
+        <select id="guardians" multiple>
+            <option value="guardian1@example.com">Guardian 1</option>
+            <option value="guardian2@example.com">Guardian 2</option>
+            <option value="guardian3@example.com">Guardian 3</option>
+        </select>
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
